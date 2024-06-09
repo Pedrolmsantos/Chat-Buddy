@@ -1,0 +1,444 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What does it mean to have a mental illness?",
+        "What is mental health illness",
+        "Describe mental health illness"
+      ],
+      "responses": [
+        "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning."
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Good night",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hey there! What can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "We'll talk more tomorrow",
+        "that is all",
+        "goodbye"
+
+      ],
+      "responses": [
+        "Bye, I really liked to talk to you"
+      ]
+    },
+    {
+      "tag": "affects_who",
+      "patterns": [
+        "Who does mental illness affect?",
+        "Who is affected by mentall illness"
+      ],
+      "responses": [
+        "It is estimated that mental illness affects 12% of the world's population."
+      ]
+    },
+    {
+      "tag": "what_causes",
+      "patterns": [
+        "What causes mental illness?",
+        "What leads to mental illness?",
+        "how does one get mentally ill?",
+        "What are the symptoms of mental illness?",
+        "Possible causes of mental illness?"
+      ],
+      "responses": [
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition."
+      ]
+    },
+    {
+      "tag": "recover",
+      "patterns": [
+        "Can people with mental illness recover?",
+        "Is it possible to recover from mental illness",
+        "Can i recover from mental illness?",
+        "Are mental health issues treatable?"
+      ],
+      "responses": [
+        "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+      ]
+    },
+    {
+      "tag": "steps",
+      "patterns": [
+        "I know someone who appears to have such symptoms.",
+        "What are the steps to be followed incase of symptoms?",
+        "What to do in case I have symptoms?"
+      ],
+      "responses": [
+        "Although this website cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery.If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+      ]
+    },
+    {
+      "tag": "find_help",
+      "patterns": [
+        "How to find mental health professional for myself",
+        "How to find mental health professional?",
+        "How to find mental health therapist",
+        "find mental health therapist"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+      ]
+    },
+    {
+      "tag": "treatement_options",
+      "patterns": [
+        "What treatment options are available?",
+        "How can one recover?",
+        "what are the treatments",
+        "treatments"
+      ],
+      "responses": [
+        "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+      ]
+    },
+    {
+      "tag": "treatment_tips",
+      "patterns": [
+        "How to become involved in treatment?",
+        "What should I keep in mind if I begin treatment?",
+        "tips for treatment"
+      ],
+      "responses": [
+        "Since beginning treatment is a big step for individuals and families, it can be very overwhelming."
+      ]
+    },
+    {
+      "tag": "professional_types",
+      "patterns": [
+        "What is the difference between mental health professionals?",
+        "What are the different types of mental health professionals present?",
+        "types of professionals of mental health"
+      ],
+      "responses": [
+        "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
+      ]
+    },
+    {
+      "tag": "right_professional",
+      "patterns": [
+        "How can I find a mental health professional right myself?",
+        "How to find the right mental health professional?"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."
+      ]
+    },
+    {
+      "tag": "talk",
+      "patterns": [
+        "I'm feeling lonely",
+        "I feel alone",
+        "I'm sad",
+        "I feel sad",
+        "I feel anxious.",
+        "I feel depressed.",
+        "lonely"
+      ],
+      "responses": [
+        "It's okay to feel that way. Tell me more about it"
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "What should I know before starting a new medication?"
+      ],
+      "responses": [
+        "The best source of information regarding medications is the physician prescribing them."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "What do I do if the support doesn’t help?",
+        "In case the support is unhelpful, what are my options?",
+        "How can I handle the situation if I don't receive assistance from the support?",
+        "What steps can I take if the support is not providing the necessary help?",
+        "If the support isn't helpful, what course of action should I take?",
+        "What can I do if I am not receiving the support I need?"
+      ],
+      "responses": [
+        "It can be difficult to find the things that will help you, as different things help different people. You can try diferent approaches, till you find what helps you better!"
+      ]
+    },
+    {
+      "tag": "prevent",
+      "patterns": [
+        "Can you prevent mental health problems?",
+        "How can I live a more balanced life?",
+        "Is there anything one can do to avoid developing mental health problems?",
+        "Are there any preventative steps that can be taken to promote good mental health?",
+        "What actions can be taken to minimize the risk of developing mental health issues?",
+        "How can we reduce the likelihood of experiencing mental health problems?"
+      ],
+      "responses": [
+        "We all have mental health challenges, but developing our wellbeing, resilience, and seeking a motivation can prevent you from developing negative thoughts and having a life filled with quality! To begin, we focus upon your physical, and move right up the latter to the spiritual, and begin cleaning you out."
+      ]
+    },
+    {
+      "tag": "feel_worthless",
+      "patterns": [
+        "can i change my feeling of being worthless to everyone ? ",
+        "i'm going through some things with my feelings and myself .",
+        " i barely sleep and i do nothing but think about how i'm worthless and how i shouldn't be here.",
+        "i've never tried or contemplated suicide.",
+        "i've always wanted to fix my issues , but i never get around to it.",
+        "how can i change my feeling of being worthless to everyone?"
+      ],
+      "responses": [
+        "The social context in which a person lives is a big influence in self-esteem, so maybe you can evaluate if the people you're surrounded with, are influencing you positively. There are many inspirational messages you can find in social media. Bad feelings are part of living. They are the motivation to remove ourselves from situations and relationships which do us more harm than good.Bad feelings do feel terrible. Your feeling of worthlessness may be good in the sense of motivating you to find out that you are much better than your feelings today."
+      ]
+    },
+    {
+      "tag": "many_issues",
+      "patterns": [
+        "I’ve never had counseling about any of this."
+      ],
+      "responses": [
+        "In counselling, you work together with a professional, collaboratively, to figure out which issues you would like to address first and then together you develop an individualized plan of care. It’s like a road map of where you want to go, how are you going to get there, looking at stopovers, some scenic routes others possibly not so scenic, however, necessary. Of course, these plans can also change due to internal (what we have control over like our thoughts, feelings and behaviours) or external reasons (those things that are outside our control)."
+      ]
+    },
+    {
+      "tag": "counseling",
+      "patterns": [
+        "Do I have too many issues to address in counseling?",
+        "Can counseling address all of the issues I'm dealing with?",
+        "Is it possible to address all of my concerns during counseling?",
+        "Should I prioritize which issues to address during counseling?",
+        "What should I do if I have multiple issues to address in counseling?",
+        "How many issues can be effectively addressed during a counseling session?"
+      ],
+      "responses": [
+        "Absolutely not! It is never too much. The most important thing is that you are reaching out to get help.  Therapy helps you to develop healthier coping strategies and that can help reduce the anxiety and depression as well as improve your sleep. This can all be done at a pace that is best for you. Your therapist can help you process all of this in a safe and supportive space."
+      ]
+    },
+    {
+      "tag": "self_harm",
+      "patterns": [
+        "Why does it feel as if self-harm is an addiction?",
+        "I self-harm",
+        "When I see something sad or depressing, I automatically want to self-harm."
+      ],
+      "responses": [
+        "Self-harm has a way of becoming a go-to method of coping. When we get stuck using self-harm as a way to deal and manage emotions, when something serious happens it totally makes sense that that will be one the first things to go through the mind. It is its own kind of addiction. There is a therapy, DBT or, Dialectical Behavior Therapy, which focusing on giving you new tools to get through hard times, understand and manage your emotions, to stay present and to deal with relationships. This one of the most effective interventions there is for self-harm. If you are interested in DBT, reach a local therapist in your area and ask if they do DBT or can recommend you to a DBT program. This can help immensely. Self-harm recovery is totally possible, but it is definitely hard work!"
+      ]
+    },
+    {
+      "tag": "therapy",
+      "patterns": [
+        "What happens in a therapy session?"
+      ],
+      "responses": [
+        "The therapist will want to know your main source of life discomfort. In what areas are the problem interactions which you hope will disappear?The therapist is trained to listen for your emotions to your story.  And to open these up to you in a kind and safe way so that you'll start to see your circumstance in a new light in which you feel more of your own authority to handle the troubling conditions.The therapist and you will refine your thinking and theories.   The therapist will ask questions to help you prepare for any stumbling blocks along your way of creating your own new answers to the problem you brought to counseling."
+      ]
+    },
+    {
+      "tag": "winter_blues",
+      "patterns": [
+        "How can I best fight the winter blues?",
+        "Every winter I find myself getting sad because of the weather.",
+        "I feel sad during winter"
+      ],
+      "responses": [
+        "Cold climate may lead to feelings of sadness, anxiety, and low energy. For some people these symptoms occur each year from late fall to early spring and may be suffering from a condition known as Seasonal Affective Disorder (SAD). Whether you have been diagnosed with SAD or are finding yourself struggling with the winter blues for the first time here are some suggestions for feeling better and staying healthy.\n 1. Nutrition. Most likely you haveheard the term “comfort food.” These foods and snacks are high in carbohydrates, sugar and fat. Avoid overeating cookies, cakes and candy. Chose vegetables, fruit and protein for snacks and plan balanced meals. If you find yourself wanting to eat or snack throughout the day, ask yourself why you are eating. Are you hungry? Or Are you eating because you are bored?\n 2. Alcohol. If you find yourself reaching for an additional glass of wine or beer be mindful and ask whether you are doing it due to boredom. Instead of mindlessly taking another glass of alcohol, drink a glass of water.\n 3. Sunlight. Get out in the sunlight or brightly lit spaces, especially early in the day.\n 4. Be activeIf you are unable to go to your favorite gym, exercise class or go for a run, find a way to stay active in your home. There are a lot of short, instructional programs available on YouTube that you can follow to do some gently yoga, dance, or do strengthening exercises using only your body weight.\n 5. Reach out for help. Confide in someone you trust about how you are feeling."
+      ]
+    },
+    {
+      "tag": "suicide",
+      "patterns": [
+        "I'm having thoughts about suicide",
+        "suicide",
+        "kill myself",
+        "end my life"
+      ],
+      "responses": [
+        "There are suicide and crisis intervention hotlines to call or text when you need help. This service specializes in helping individuals (and their friends, family and loved ones) who are having suicidal thoughts. . Suicide and Crisis Hotline: 988"
+      ]
+    },
+    {
+      "tag": "work",
+      "patterns": [
+        "I'm feeling so overwhelmed with all this work I have to do. I don't know how I'm going to get it all done."
+      ],
+      "responses": [
+        "That does sound like a lot, but don't worry. You've got this. Why don't you make a list of all the things you have to do and break them down into smaller, more manageable tasks? And if you need any help or someone to bounce ideas off of, I'm here for you. We can tackle this together."
+      ]
+    },
+    {
+      "tag": "wrong",
+      "patterns": [
+        "I just feel like I made a huge mistake by choosing this course. I don't think I'm smart enough or capable enough to succeed."
+      ],
+      "responses": [
+        "I totally get how that can be intimidating, but remember that you were accepted into this course for a reason. You're just as capable as anyone else in the class.It's normal to doubt yourself sometimes, but don't be too hard on yourself. You're still figuring things out, and it's okay to make mistakes. Maybe you just need to adjust your study habits or get some extra help."
+      ]
+    },
+    {
+      "tag": "stigma",
+      "patterns": [
+        "What is the stigma surrounding mental illness?",
+        "How does society view people with mental illness?",
+        "Why do people stigmatize those with mental illness?",
+        "How can we reduce the negative attitudes and stereotypes towards people with mental illness?",
+        "What are some common misconceptions about mental illness that perpetuate stigma?"
+      ],
+      "responses": [
+        "Unfortunately, there is still a lot of stigma and discrimination associated with mental illness. Many people with mental health conditions face unfair treatment, exclusion, and negative attitudes from others, which can make their symptoms worse and prevent them from seeking help."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "Where can I find support for my mental health?",
+        "How can I get help for my mental health?",
+        "What resources are available for people seeking mental health support?",
+        "How can I locate support for my mental health needs?",
+        "Are there any organizations or groups that provide mental health assistance?",
+        "What are some resources for mental health support?",
+        "What steps should I take to find the right mental health support for me?",
+        "Who can I reach out to for help with my mental health concerns?"
+      ],
+      "responses": [
+        "There are many resources available to help you with your mental health, such as support groups, counseling services, and hotlines. Your doctor or mental health professional can also provide you with information on resources available in your area."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "support_others",
+      "patterns": [
+        "How can I support someone with a mental health issue?",
+        "What can I do to help someone with a mental health issue?"
+      ],
+      "responses": [
+        "There are many ways to support someone with a mental health issue, such as listening without judgment, offering encouragement and reassurance, and helping them access treatment and support. It is also important to take care of yourself and seek support if you are feeling overwhelmed."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "Do I need medication for my mental illness?",
+        "How does medication help with mental illness?"
+      ],
+      "responses": [
+        "Medication can be an effective treatment option for many people with mental illness. It can help to alleviate symptoms and improve daily functioning. However, medication is not always necessary or appropriate for everyone, and should be used in combination with other treatments such as therapy or lifestyle changes."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "self-care",
+      "patterns": [
+        "What are some self-care techniques for mental health?",
+        "How can I take care of my mental health on my own?"
+      ],
+      "responses": [
+        "Self-care is an important part of maintaining good mental health. Some techniques that can be helpful include exercise, meditation, journaling, and spending time in nature. It's important to find what works best for you and make self-care a regular part of your routine."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "mental_health_issues",
+      "patterns": [
+        "What are some common mental health issues?",
+        "What are the most prevalent mental health issues?"
+      ],
+      "responses": [
+        "Some common mental health issues include depression, anxiety, bipolar disorder, schizophrenia, and eating disorders. However, there are many different types of mental health issues, and each person's experience is unique."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "detetion_mental_health_issues",
+      "patterns": [
+        "How do I know if I have a mental health issue?",
+        "What are the signs of mental health issues?"
+      ],
+      "responses": [
+        "There are many signs and symptoms of mental health issues, and they can vary from person to person. Some common signs include changes in mood or behavior, feeling sad or hopeless, loss of interest in activities, difficulty sleeping, and changes in appetite. If you are concerned about your mental health, it is important to speak with a healthcare provider."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Risk_of_mental_health_issues",
+      "patterns": [
+        "What are the risk factors for mental health issues?",
+        "Who is at risk for mental health issues?"
+      ],
+      "responses": [
+        "Risk factors for mental health issues can include genetics, life experiences, stress, trauma, and substance abuse. Anyone can develop a mental health issue, but certain factors can increase a person's risk."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Signs",
+      "patterns": [
+        "What are the signs of a mental health issue?",
+        "How can I recognize if I or someone I know is experiencing a mental health issue?"
+      ],
+      "responses": [
+        "Signs of a mental health issue can vary depending on the type of issue, but some common signs include changes in mood, behavior, or thought patterns, withdrawal from activities or social interaction, and difficulty functioning in daily life. It's important to seek help if you or someone you know is experiencing these symptoms."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "untreated_issues",
+      "patterns": [
+        "What are the long-term effects of untreated mental health issues?",
+        "What can happen if someone with a mental health issue doesn't get treatment?"
+      ],
+      "responses": [
+        "Untreated mental health issues can have serious long-term effects, including a decrease in quality of life, difficulty with relationships and work, physical health problems, and an increased risk of suicide. It's important to seek help if you or someone you know is experiencing mental health issues."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "make_happy",
+      "patterns": [
+        "How can i make myself happy"
+      ],
+      "responses": [
+        "There is no single formula for happiness, as it is a complex emotion that is influenced by a range of factors such as genetics, upbringing, environment, and personal choices. However, here are some general tips that can help you cultivate happiness: practice gratitude, engage in activities you enjoy, cultivate positive relationships, practice self-care, set goals, help others, stay present. Remember that happiness is a journey, not a destination, and it takes effort and practice to cultivate."
+      ],
+      "context": [
+        ""
+      ]
+    }
+    ]
+  }

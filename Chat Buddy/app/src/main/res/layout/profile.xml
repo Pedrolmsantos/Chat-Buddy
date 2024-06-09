@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rellay1" android:layout_width="match_parent" android:layout_height="318dp" android:background="@drawable/backp" android:paddingBottom="20dp">
+        <RelativeLayout android:id="@+id/imgUser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginTop="40dp" android:background="@color/white">
+            <ImageView android:id="@+id/imgU" android:layout_width="120dp" android:layout_height="120dp" android:adjustViewBounds="true" android:scaleType="centerInside"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imgUser" android:layout_centerHorizontal="true" android:layout_marginTop="15sp" android:fontFamily="sans-serif-light" android:text="Nome" android:textColor="@color/white" android:textSize="32sp"/>
+        <TextView android:id="@+id/country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/name" android:layout_centerHorizontal="true" android:text="portugal" android:textAllCaps="true" android:textSize="14sp"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/lin1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/rellay1" android:orientation="horizontal"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="474dp" android:layout_below="@+id/lin1" android:layout_marginTop="1dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Idade" android:textColor="#005bd1" android:textSize="13sp"/>
+                <TextView android:id="@+id/textidade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" android:text="exmaple" android:textColor="#000000" android:textSize="18sp"/>
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="15dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Telefone" android:textColor="#005bd1" android:textSize="13sp"/>
+                <TextView android:id="@+id/textelefone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" android:text="example" android:textColor="#000000" android:textSize="18sp"/>
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="15dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email" android:textColor="#005bd1" android:textSize="13sp"/>
+                <TextView android:id="@+id/textemail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="example" android:textColor="#000000" android:fontFamily="sans-serif-light" android:textSize="18sp"/>
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin" app:srcCompat="@android:drawable/ic_dialog_email"/>
+    </RelativeLayout>
+</RelativeLayout>
